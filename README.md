@@ -2,7 +2,6 @@
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=hanhuark/MEEG-54403)
 ## Instructor: [Han Hu](https://engineering.uark.edu/directory/index/uid/hanhu/name/Han+Hu/)
 ## Organization: [Department of Mechanical Engineering, University of Arkansas](https://mechanical-engineering.uark.edu/)
-### Tutorial developer: [Najee Stubbs](https://www.linkedin.com/in/najeei/) <br>
 ### Data source: [Nano Energy and Data-Driven Discovery Laboratory](https://ned3.uark.edu/) <br>
 ### Funding: [MathWorks Curriculum Development Support program](https://www.mathworks.com/company/aboutus/soc_mission/education.html) (Organized by [Mehdi Vahab](https://www.linkedin.com/in/mehdivahab/))
 ## Acknowledgments:
