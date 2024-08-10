@@ -26,13 +26,3 @@ Run dimensionality reduction and clustering analysis of the same dataset used in
 The data file vapor_fraction.txt includes the vapor fraction (second column, dimensionless) vs. time (first column, unit: ms) of the boiling image sequences. The data are sampled with a frequency of 3,000 Hz (namely, a time step of 0.33 ms). Develop a recurrent neural network (RNN) model to forecast vapor fraction of future frames based on the past frames, e.g., predicting the vapor fraction profile of t = 33.33 ms – 66 ms using the vapor fraction history of t = 0.33 – 33 ms. Options include regular RNN, bidirectional RNN, gated recurrent unit (GRU), bidirectional GRU, long short-term memory (LSTM), bidirectional LSTM. 
 (a)	Develop a baseline model with an input sequence length of 16.33 ms (50 data points) and an output sequence length of 16.33 ms (50 data points). Plot the model-predicted signal vs. the true signal. 
 (b)	Vary the input and output sequence lengths to evaluate their effect on the error of the model predictions. 
-### Extra Assignment 1 - Image Classification using PCA-MLP
-Re-do the image classification problem in HW-2 using PCA-MLP. Run SVD or PCA to obtain the PCs of the images. Feed the PCs to an MLP neural network to classify the regime of the boiling images. 
-### Extra Assignment 2 - Image Regression
-The vapor fraction (second) column of the data file vapor_fraction.txt are the labels of the images under the folder images Train a convolutional neural network (CNN) model to predict the vapor fraction of the images and compare the model prediction against the true data. 
-### Extra Assignment 3 - Sequence to sequence prediction
-The image dataset represents a boiling image sequence under transient heat loads. The images have a frame rate of 1,000 fps (or a time step of 1 ms). Run PCA to obtain the PC profiles of the image sequence. Feed the extracted PC profiles to an RNN model to forecast the PCs of future frames. Reconstruct image sequences using the predicted PCs and compare the reconstructed images against the true images. The recommended RNN models include LSTM or BiLSTM. 
-
-Note: 
-1.	Use an input vector length of 100 and an output vector length of 100 for the model.
-2.	Downsample the image sequence (e.g., reducing the frame rate from 1,000 fps to 500 fps) in case of memory issues. 
