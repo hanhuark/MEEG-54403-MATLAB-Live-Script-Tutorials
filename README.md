@@ -1,4 +1,7 @@
 # MATLAB Live Script Tutorials for MEEG-44403/54403: Machine Learning for Mechanical Engineers
+
+Repository scope, evidence, and reuse boundaries are also available in the
+[NED3 resource manifest](.ned3/resource-manifest-v0.1.json).
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=hanhuark/MEEG-54403)
 ## Instructor: [Han Hu](https://engineering.uark.edu/directory/index/uid/hanhu/name/Han+Hu/)
 ## Organization: [Department of Mechanical Engineering, University of Arkansas](https://mechanical-engineering.uark.edu/)
